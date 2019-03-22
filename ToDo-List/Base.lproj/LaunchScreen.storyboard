@@ -18,12 +18,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kCc-xB-K3e">
-                                <rect key="frame" x="87" y="328" width="240" height="240"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kCc-xB-K3e">
+                                <rect key="frame" x="87" y="306" width="240" height="262"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="262" id="XHX-mF-hYP"/>
+                                    <constraint firstAttribute="width" constant="240" id="YmS-fj-orU"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kCc-xB-K3e" secondAttribute="bottom" constant="294" id="7rG-XU-cMj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kCc-xB-K3e" secondAttribute="bottom" constant="294" id="C2y-fu-976"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kCc-xB-K3e" secondAttribute="bottom" constant="294" id="K5A-rF-Ydj"/>
+                            <constraint firstItem="kCc-xB-K3e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="262" id="NWh-On-xlt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kCc-xB-K3e" secondAttribute="trailing" constant="87" id="Ulh-sz-a09"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kCc-xB-K3e" secondAttribute="trailing" constant="87" id="Zfd-gh-33c"/>
+                            <constraint firstItem="kCc-xB-K3e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="avx-Ib-Mqv"/>
+                            <constraint firstItem="kCc-xB-K3e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="ryQ-Pm-QF8"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
